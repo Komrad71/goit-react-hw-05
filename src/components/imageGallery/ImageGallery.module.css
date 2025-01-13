@@ -1,0 +1,18 @@
+.galleryContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.galleryItem {
+  cursor: pointer;
+  transition: transform 250ms;
+}
+
+.galleryItem:hover {
+  transform: scale(1.05);
+}
