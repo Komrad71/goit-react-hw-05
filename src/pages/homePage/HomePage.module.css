@@ -1,0 +1,13 @@
+.main {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.title {
+  padding: 0px 25px ;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: start;
+  color: #333;
+}

@@ -1,0 +1,97 @@
+.main {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.backLink:hover {
+  color: #0056b3;
+}
+
+.movieContainer {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.movieImage {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movieDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.releaseDate, .voteAverage {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.overview, .noGenres {
+  font-size: 16px;
+  color: #333;
+}
+
+.genresList {
+  list-style: none;
+  color: #fff;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.genreItem {
+  background-color: #007bff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.additionalInfo {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #0056b3;
+}
+
+.activeLink {
+  color: #0056b3;
+  font-weight: bold;
+}
